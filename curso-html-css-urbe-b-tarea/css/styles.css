@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dimgray;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+    padding: 0 2rem 0 1.3rem;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.85rem;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.75rem;
+    color: darkgrey;
+}
+
+.cardProfile {
+    width: 18rem;
+    height: 26.5rem;
+    margin: 00.75rem;
+    background-color:ghostwhite;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 240px 97px 87px;
+}
+
+.cardProfilePic {
+    grid-row: 1;
+    padding: 00.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardProfilePic--Portada {
+    border-radius: 1rem;
+}
+
+.cardProfileTitle {
+    grid-row: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardProfileDescription {
+    grid-row: 3;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.75rem 1.3rem;
+}
+
+.cardProfileDescription--Avatar {
+    border-radius: 2rem;
+}
+
+.cardProfileDescription--Info {
+    padding: 0.5rem 0.75rem;
+}
